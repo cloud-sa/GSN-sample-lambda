@@ -55,7 +55,6 @@ def lambda_handler(event, context):
             },
             "context": {"exampleKey": "exampleValue"},
         }
-        print(response) #추가
         return response
     
     response = {
@@ -72,5 +71,4 @@ def lambda_handler(event, context):
         },
         "context": {"exampleKey": "exampleValue"},
     }
-    print(response) #추가
     return respons
